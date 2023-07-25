@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%, auto));
+    width: var(--max-width);
+    max-width: 100%;
+    padding:30px;
+    margin:40px;
+    align-items: center;
+    
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15%;
+    min-height: 25vh;
+}
+.description {
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    font-size: 0.85rem;
+    max-width: var(--max-width);
+    width: 100%;
+    z-index: 2;
+    font-family: var(--font-mono);
+}
+
+.logo{
+    height: 120px;
+    
+}
